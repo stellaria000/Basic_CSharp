@@ -39,11 +39,8 @@ namespace ConsoleApp1
 
 class MainClass
 {
-    static int Main(string[] args)
-    {
-        /* 인스턴스 변수는 일반 변수를 선언하는 것과 유사하지만, 데이터 형이 클래스가 된다. 인스턴스 변수 p1은 Person 클래스를 바탕으로 만들어진다.*/
+    /* 인스턴스 변수는 일반 변수를 선언하는 것과 유사하지만, 데이터 형이 클래스가 된다. 인스턴스 변수 p1은 Person 클래스를 바탕으로 만들어진다.*/
 
-        Cat coco = new Cat("코코");
-        Cat moly = new Cat("몰리", 3);
-    }
+    Cat coco = new Cat("코코");
+    Cat moly = new Cat("몰리", 3);
 }
