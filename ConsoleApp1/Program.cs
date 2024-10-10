@@ -48,29 +48,50 @@ namespace ConsoleApp1
             //Console.WriteLine(num);
 
             // COMPARING
-            bool result;
-            int num1, num2;
-            
-            num1 = 3;
-            num2 = 5;
+            //bool result;
+            //int num1, num2;
 
-            result = num1 > num2;
-            Console.WriteLine(result);
+            //num1 = 3;
+            //num2 = 5;
 
-            result = num1 < num2;
-            Console.WriteLine(result);
+            //result = num1 > num2;
+            //Console.WriteLine(result);
 
-            result = num1 >= num2;
-            Console.WriteLine(result);
+            //result = num1 < num2;
+            //Console.WriteLine(result);
 
-            result = num1<= num2;
-            Console.WriteLine(result);
+            //result = num1 >= num2;
+            //Console.WriteLine(result);
 
-            result = num1 == num2;
-            Console.WriteLine(result);
+            //result = num1<= num2;
+            //Console.WriteLine(result);
 
-            result = num1 != num2;
-            Console.WriteLine(result);
+            //result = num1 == num2;
+            //Console.WriteLine(result);
+
+            //result = num1 != num2;
+            //Console.WriteLine(result);
+
+            // LOGIC(AND/OR/NOT)
+            bool A, B;
+            A = true;
+            B = false;
+
+            // AND
+            Console.WriteLine(A && A);
+            Console.WriteLine(A && B);
+
+            // OR
+            Console.WriteLine(A || A);
+            Console.WriteLine(A || B);
+
+            // NOT
+            Console.WriteLine(!A);
+            Console.WriteLine(!B);
+
+            int score = 85;
+            if (score > 80)
+                if (score <= 100) Console.WriteLine("A");
 
         }
     }
