@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
@@ -22,8 +18,8 @@ namespace ConsoleApp1
             // for (int i = 1; i < 11; i++) Console.WriteLine(i);
 
             // WHILE
-            int i = 1;
-            while (i < 11) Console.WriteLine(i++);
+            /* int i = 1;
+            while (i < 11) Console.WriteLine(i++); */
 
             /*03-3. 데이터를 연산자로 요리하기*/
             // CALCULATION
@@ -98,6 +94,13 @@ namespace ConsoleApp1
             //if (score > 80)
             //    if (score <= 100) Console.WriteLine("A");
 
+            /*03-4. 데이터 옮겨 담기*/
+            sbyte value1 = 64;
+            sbyte value2 = 64;
+
+            int value3 = (int)value1 + value2;
+
+            Console.WriteLine(value3);
         }
     }
 }
