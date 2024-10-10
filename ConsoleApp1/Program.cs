@@ -18,7 +18,8 @@ namespace ConsoleApp1
             else if (num < 0) Console.WriteLine("음수");
             else Console.WriteLine("영");
 
-
+            // FOR
+            for (int i = 1; i < 11; i++) Console.WriteLine(i);
         }
     }
 }
