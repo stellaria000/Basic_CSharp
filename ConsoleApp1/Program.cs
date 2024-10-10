@@ -41,11 +41,36 @@ namespace ConsoleApp1
             //Console.WriteLine(result);
 
             // INCRESEMENT/DECRESEMENT
-            int num = 0;
-            Console.WriteLine(num++);
-            Console.WriteLine(num);
-            Console.WriteLine(--num);
-            Console.WriteLine(num);
+            //int num = 0;
+            //Console.WriteLine(num++);
+            //Console.WriteLine(num);
+            //Console.WriteLine(--num);
+            //Console.WriteLine(num);
+
+            // COMPARING
+            bool result;
+            int num1, num2;
+            
+            num1 = 3;
+            num2 = 5;
+
+            result = num1 > num2;
+            Console.WriteLine(result);
+
+            result = num1 < num2;
+            Console.WriteLine(result);
+
+            result = num1 >= num2;
+            Console.WriteLine(result);
+
+            result = num1<= num2;
+            Console.WriteLine(result);
+
+            result = num1 == num2;
+            Console.WriteLine(result);
+
+            result = num1 != num2;
+            Console.WriteLine(result);
 
         }
     }
