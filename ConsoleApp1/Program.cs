@@ -21,6 +21,11 @@ namespace ConsoleApp1
             // FOR
             // for (int i = 1; i < 11; i++) Console.WriteLine(i);
 
+            // WHILE
+            int i = 1;
+            while (i < 11) Console.WriteLine(i++);
+
+            /*03-3. 데이터를 연산자로 요리하기*/
             // CALCULATION
             //int result, num1, num2;
             //result = 3 + 1;
@@ -73,25 +78,25 @@ namespace ConsoleApp1
             //Console.WriteLine(result);
 
             // LOGIC(AND/OR/NOT)
-            bool A, B;
-            A = true;
-            B = false;
+            //bool A, B;
+            //A = true;
+            //B = false;
 
             // AND
-            Console.WriteLine(A && A);
-            Console.WriteLine(A && B);
+            //Console.WriteLine(A && A);
+            //Console.WriteLine(A && B);
 
-            // OR
-            Console.WriteLine(A || A);
-            Console.WriteLine(A || B);
+            //// OR
+            //Console.WriteLine(A || A);
+            //Console.WriteLine(A || B);
 
-            // NOT
-            Console.WriteLine(!A);
-            Console.WriteLine(!B);
+            //// NOT
+            //Console.WriteLine(!A);
+            //Console.WriteLine(!B);
 
-            int score = 85;
-            if (score > 80)
-                if (score <= 100) Console.WriteLine("A");
+            //int score = 85;
+            //if (score > 80)
+            //    if (score <= 100) Console.WriteLine("A");
 
         }
     }
