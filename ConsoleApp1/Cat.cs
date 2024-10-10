@@ -48,20 +48,16 @@ namespace ConsoleApp1
 
     }
 
-    class MainClass
+    class CatClass
     {
         /* 인스턴스 변수는 일반 변수를 선언하는 것과 유사하지만, 데이터 형이 클래스가 된다. 인스턴스 변수 p1은 Person 클래스를 바탕으로 만들어진다.*/
-        static int Main(string[] args)
-        {
-            Cat coco = new Cat();
-            coco.SetName("코코");
+            //Cat coco = new Cat();
+            //coco.SetName("코코");
 
-            //Cat coco = new Cat("코코");
-            //coco.Name= "몰리";    
+            ////Cat coco = new Cat("코코");
+            ////coco.Name= "몰리";    
 
-            Console.WriteLine("고양이의 이름은 " + coco.GetName() + "입니다.");
-
-        }
+            //Console.WriteLine("고양이의 이름은 " + coco.GetName() + "입니다.");
 
     }
 }
