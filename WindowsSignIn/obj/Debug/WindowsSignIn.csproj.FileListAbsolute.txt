@@ -1,0 +1,5 @@
+D:\Project\ConsoleApp1\WindowsSignIn\obj\Debug\WindowsSignIn.csproj.AssemblyReference.cache
+D:\Project\ConsoleApp1\WindowsSignIn\obj\Debug\WindowsSignIn.Form1.resources
+D:\Project\ConsoleApp1\WindowsSignIn\obj\Debug\WindowsSignIn.Properties.Resources.resources
+D:\Project\ConsoleApp1\WindowsSignIn\obj\Debug\WindowsSignIn.csproj.GenerateResource.cache
+D:\Project\ConsoleApp1\WindowsSignIn\obj\Debug\WindowsSignIn.csproj.CoreCompileInputs.cache
